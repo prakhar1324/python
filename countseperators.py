@@ -1,0 +1,8 @@
+f = open("abc.txt","r")
+s = f.read()
+spaces = s.count(" ")
+enter = s.count("\n")
+tab  = s.count("  ")
+bslash = s.count("\\")
+print(spaces,enter,tab,bslash)
+f.close()

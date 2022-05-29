@@ -1,4 +1,6 @@
 from re import T
+
+
 def pal(s):
     t = ""
     for i in s:
